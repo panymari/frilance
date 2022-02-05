@@ -1,0 +1,75 @@
+.logo{
+    color: white;
+    font-size: 3rem;
+}
+.header{
+    background-color:aquamarine;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user > i{
+    color: white;
+}
+.user{
+    background-color: rgb(194, 255, 235);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:hover{
+        border: 1px solid white;
+        box-shadow: 0 0 1rem white;
+        cursor: pointer;
+    }
+    &:hover .block{
+        display: block;
+        transition: all 0.3s ease;
+    }
+}
+.block{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    display: none;
+    background-color:aquamarine;
+    display: block;
+}
+.block > div {
+    padding: 1rem 9rem 1rem 1rem;
+    font-size: 1.3rem;
+    color: white;
+    &:hover{
+        background-color: rgb(174, 252, 227);
+        cursor: pointer;
+    }
+}
+.googleUserPhoto {
+  border-radius: 50%;
+  height: 1.6rem;
+  width: 1.7rem;
+}
+.googleUserPhotoProfile {
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  height: 2.3rem;
+  width: 2.4rem;
+}
+.googleProfile {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+}
+.googleInfo {
+  margin-left: 2rem;
+}
+.googleUserName {
+  margin-bottom: 0.3rem;
+}
+.hideBlock{
+  display: none;
+}

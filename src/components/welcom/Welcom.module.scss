@@ -1,0 +1,32 @@
+.googleUserImage{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.welcome{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.noPhoto > i{
+    color: rgb(73, 64, 197);
+}
+.noPhoto{
+    background-color: rgb(204, 226, 255);
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;  
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: center;
+}

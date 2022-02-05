@@ -1,0 +1,54 @@
+.usersDesk{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.addAlert{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+.veiwAllUsers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13rem;
+    color: grey;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    &:hover{
+        background-color: #7abcff28;
+        border-radius: 2rem;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+}
+.veiewAllUsersText{
+    font-weight: 600;
+}
+.img{
+    height: 5rem;
+    border-radius: 50%;
+    width: 5rem;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.userName{
+    color: grey;
+    font-size: 1rem;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
+    margin-bottom: 1.5rem;
+}
