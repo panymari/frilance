@@ -1,41 +1,24 @@
 .usersDesk{
     background-color: white;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
-}
-.addAlert{
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    margin-top: 0.5rem;
-}
-.veiwAllUsers{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 13rem;
-    color: grey;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    &:hover{
-        background-color: #7abcff28;
-        border-radius: 2rem;
-        padding: 0.5rem;
-        cursor: pointer;
-    }
-}
-.veiewAllUsersText{
-    font-weight: 600;
+    width: 77rem;
+    margin: 2.5rem auto 0 auto;
 }
 .img{
     height: 5rem;
     border-radius: 50%;
     width: 5rem;
+    margin-right: 1rem;
 }
 .name{
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 8rem;
+    text-overflow: ellipsis;
 }
 .userName{
     color: grey;
@@ -49,6 +32,75 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 13rem;
-    margin-bottom: 1.5rem;
+    width: 14rem;
+    margin-right: 2rem;
+}
+.users{
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.userProfileShow{
+    display: flex;
+    padding: 7rem;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 1;
+    background-color: white;
+    color: black;
+    width: 50rem;
+    height: 45rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+.userInfo > div{
+    margin-bottom: 0.5rem;
+}
+.userProfileHide{
+    display: none;
+}
+.modalShow{
+    display: block;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modalHide{
+    display: none;
+}
+.crossButton{
+    border: 0;
+    background-color: transparent;
+    font-size: 3rem;
+    color: aquamarine;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    &:hover{
+        color: rgb(96, 190, 159);
+        cursor: pointer;
+    }
+}
+.imgProfile{
+    width: 14rem;
+    height: 15rem;
+    margin-right: 4rem;
+}
+span{
+    font-weight: 600;
 }

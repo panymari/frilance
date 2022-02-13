@@ -1,0 +1,31 @@
+.input{
+    border: 2px solid #0a66c2;
+    border-radius: 2rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    &:focus{
+        outline: 0;
+        box-shadow: 0 0 1rem #85bcf3;
+    }
+}
+.buttonAdd{
+    background-color:#0a66c2;
+    border: 0;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    height: 100%;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0;
+}
+.buttonIn{
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
